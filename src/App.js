@@ -1,25 +1,3 @@
-// import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <h1 className="App-title">Welcome to React</h1>
-//         </header>
-//         <p className="App-intro">
-//           To get started, edit <code>src/App.js</code> and save to reload.
-//         </p>
-//       </div>
-//     );
-//   }
-// }
-
-// export default App;
-
 import React from 'react';
 import Headings from "./components/Headings.js";
 import Form from "./components/Form.js";
@@ -125,18 +103,4 @@ class App extends React.Component{
   }
 };
 
-/*const Wrapper = styled.div`
-background: linear-gradient(to right, #E48F3D, #960F03);
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-
-@media screen and (max-width:375px){
-  wrapper {
-    background: green;
- }
-}
-;
-/* ` */
 export default App;
